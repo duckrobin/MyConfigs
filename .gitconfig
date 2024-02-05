@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = matheus.brandao
+	email = matheus.brandao@ucalgary.ca
+[core]
+	editor = nvim
+[diff]
+	tool = meld
+	guitool = meld
+[merge]
+	tool = meld
+[difftool]
+	prompt = false
+[alias]
+    bdirdiff = difftool -d
